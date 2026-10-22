@@ -1,2 +1,4 @@
-python src/main.py https://github.com/eioel-d/static_site_generator.git
+python src/main.py "/static_site_generator/" 
+
+cd docs && python -m http.server 8888
 
